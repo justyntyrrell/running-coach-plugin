@@ -1,0 +1,15 @@
+{
+  "name": "running-coach",
+  "displayName": "Running Coach",
+  "version": "1.0.0",
+  "description": "A running coach that reads your own training data, from your watch and your calendar, and coaches you from it: daily check-ins, race-time ranges, a planned week, all changed only with your yes.",
+  "author": {
+    "name": "TODO: the Operator's name as verified"
+  },
+  "homepage": "https://running-coach.justyntyrrell.workers.dev/help",
+  "icon": "./assets/icon.png",
+  "documentationUrl": "https://running-coach.justyntyrrell.workers.dev/help",
+  "supportUrl": "https://running-coach.justyntyrrell.workers.dev/support",
+  "privacyPolicyUrl": "https://running-coach.justyntyrrell.workers.dev/privacy",
+  "termsOfServiceUrl": "https://running-coach.justyntyrrell.workers.dev/terms"
+}
