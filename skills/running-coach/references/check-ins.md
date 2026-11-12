@@ -16,7 +16,7 @@ A check-in is the athlete's own report for a day. It sits beside sleep, recovery
   - Injury runs from excellent (1), through niggle (2) and poor (3), to injured (4).
 
   Never compare these with the check-in's own scales.
-- **An Intervals injury of 2 or more:** the files don't count it as pain yet, so ask about it. Hold `taper-shape` until the athlete answers.
+- **An Intervals injury:** the files count poor (3) and injured (4) as pain. A niggle (2) counts as neither pain nor no pain, so ask about it. Hold `taper-shape` until the athlete answers.
 - **RPE and feel** on an activity, or told to you about a run, describe that session, not today's readiness. Intervals' feel runs from strong (1) to weak (5).
 
 ## When to ask for one
@@ -28,7 +28,8 @@ Ask only in these cases:
 - after an abnormal response;
 - with pain or illness in the last 7 days;
 - before a meaningful change to the schedule;
-- when the athlete asks.
+- when the athlete asks;
+- in a routine's chat, as `references/routine.md` says.
 
 **How to ask:**
 - At most once a chat, in one line, with the scales spelled out: legs 1–5 (1 dead, 5 fresh), soreness 0–10, any pain 0–10 and where, sleep 1–5, and anything else.

@@ -1,7 +1,7 @@
 {
   "name": "running-coach",
   "displayName": "Running Coach",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A running coach that reads your own training data, from your watch and your calendar, and coaches you from it: daily check-ins, race-time ranges, a planned week, all changed only with your yes.",
   "author": {
     "name": "TODO: the Operator's name as verified"
