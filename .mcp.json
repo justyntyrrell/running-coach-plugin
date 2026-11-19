@@ -2,7 +2,7 @@
   "mcpServers": {
     "running-coach": {
       "type": "http",
-      "url": "https://running-coach.justyntyrrell.workers.dev/mcp"
+      "url": "https://pacepuffin.com/mcp"
     }
   }
 }

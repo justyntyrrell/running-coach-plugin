@@ -1,6 +1,6 @@
 # Menstrual cycle phase, performance and cycle-based training in eumenorrheic women
 
-Rendered from the coaching knowledge (version acf61b6f40f3); never edited by hand.
+Rendered from the coaching knowledge (version 31cb832692d4); never edited by hand.
 
 ## Rules
 

@@ -1,6 +1,6 @@
 # Heat and altitude
 
-Rendered from the coaching knowledge (version acf61b6f40f3); never edited by hand.
+Rendered from the coaching knowledge (version 31cb832692d4); never edited by hand.
 
 ## Rules
 
@@ -24,6 +24,7 @@ Rendered from the coaching knowledge (version acf61b6f40f3); never edited by han
 Each with its evidence type, quality, source and link, then what it means in practice.
 
 - **env-altitude-raises-haemoglobin-mass** (meta_analysis, moderate quality; Gore 2013, https://pubmed.ncbi.nlm.nih.gov/24282204/): A camp needs roughly two weeks or more (about 300 hours) of exposure to expect a haematological gain, and the gain fades within a few weeks.
+- **env-altitude-small-time-trial-gain-runners** (meta_analysis, low quality; Grivas 2026, https://pubmed.ncbi.nlm.nih.gov/42891559/): For a runner asking about an altitude camp, expect at most a small time-trial gain, not a change in economy; it is an optional lever for a planned block, not something the plan needs.
 - **env-heat-acclimation-improves-performance** (meta_analysis, moderate quality; Benjamin 2019, https://pubmed.ncbi.nlm.nih.gov/31827444/): Heat training is a real performance lever for hot races and may help modestly in cool conditions; plan it with the training-recovery balance in mind.
 - **env-heat-acclimatise-1-2-weeks** (consensus, moderate quality; Racinais 2015, https://pubmed.ncbi.nlm.nih.gov/26069301/): If a race may be hot, arrange about 1-2 weeks of repeated training in warm conditions beforehand; start sessions and races hydrated.
 - **env-heat-optimum-falls-with-distance** (observational, low quality; Mantzios 2022, https://pubmed.ncbi.nlm.nih.gov/34652333/): Expect a warm race day to cost time above an optimum that is lower the longer the race; this curve sizes the heat term in the goal race's published range.

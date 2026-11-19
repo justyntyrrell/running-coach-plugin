@@ -25,10 +25,13 @@ Say what the history shows, as measured, from `history_coverage`, `training_summ
 
 **Short histories:**
 - If `history_coverage.history_start` is set, the history starts there by design: never ask about an import.
-- When fewer than 6 weeks are covered, ask their typical weekly km and longest recent run. Without `history_start`, first ask whether a Garmin import is on its way, and ask those two only if it isn't, or they don't know.
+- When fewer than 6 weeks are covered, ask their typical weekly km and longest recent run. Without `history_start` or `history_way`, first ask whether a Garmin import is on its way, and ask those two only if it isn't, or they don't know.
   - The answers go to `weekly_km` and `longest_run_km` when `save_athlete_profile` takes them, and to `background` when it doesn't.
   - Ask neither when the profile already gives them.
   - The plan outline starts from these two numbers until 4 weeks are measured (`plan_outline.basis` `reported`).
+- **Without Intervals:** the profile's `history_way` is set only for an athlete whose coach doesn't read Intervals, so never send them to Intervals' or another app's setup: it brings nothing in.
+  - `account`: while `history_missing` is set, point them to `account_url` to upload their history files or connect Garmin.
+  - `not_yet`: say plainly that their runs can't reach you yet, and coach from what they report.
 - When an import is coming, or they don't know while fewer than 6 weeks are covered and `settling_until` is today or later, say the read-back may change as history lands, and plan conservatively. `settling_until` alone is no reason to hedge.
 
 ## Questions
@@ -69,9 +72,11 @@ Both are optional. Never press, never ask why, and never infer either from a nam
   - **To finish later:** read back what they answered, and on a yes save it without `onboarding_complete`.
   - **On a skip:** save what they confirmed with `onboarding_complete: true`. The flag alone is accepted.
   - If an earlier chat stopped part-way, ask only for what `missing` still lists.
-- **First week:** propose it from `plan_outline`, as `references/plan.md` says, under rule 6.
+- **First week:** propose it from `plan_outline`, as `references/plan.md` says, under rule 6. Without one yet, it is provisional (`no_outline` there).
+- **The routine:** once the first week is written, and while the onboarding item's `data.routine_offer` is true, offer the daily routine as the last thing onboarding does, as `references/routine.md` says, and report it with `agenda_done` (`routine_offer`). If they stop before the first week, leave it: the agenda brings it later.
 - **Rhythm:** they run, the Sync happens by itself, and a check-in comes in a new chat. A new goal, an injury or a change of schedule can be told to you any time.
   - With `save_coach_memory`, add that they can tell you how they feel any time, that you keep short notes between chats, and that they can ask what you remember or ask you to forget something.
+  - When the chat offers the `preference` kind, add one line: they can change how you coach, how their workouts are built and which charts they see just by asking, and the plan is always theirs to decide (`references/preferences.md`).
 
 ## Once onboarding is done
 

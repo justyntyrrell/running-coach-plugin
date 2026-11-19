@@ -1,15 +1,15 @@
 {
   "name": "running-coach",
-  "displayName": "Running Coach",
-  "version": "1.0.0",
-  "description": "A running coach that reads your own training data, from your watch and your calendar, and coaches you from it: daily check-ins, race-time ranges, a planned week, all changed only with your yes.",
+  "displayName": "Pace Puffin",
+  "version": "1.1.0",
+  "description": "An AI running coach that reads your own runs and training plan and coaches you from them: daily check-ins, race-time ranges and a planned week, with nothing changed without your yes.",
   "author": {
-    "name": "TODO: the Operator's name as verified"
+    "name": "Justyn Tyrrell"
   },
-  "homepage": "https://running-coach.justyntyrrell.workers.dev/help",
+  "homepage": "https://pacepuffin.com/help",
   "icon": "./assets/icon.png",
-  "documentationUrl": "https://running-coach.justyntyrrell.workers.dev/help",
-  "supportUrl": "https://running-coach.justyntyrrell.workers.dev/support",
-  "privacyPolicyUrl": "https://running-coach.justyntyrrell.workers.dev/privacy",
-  "termsOfServiceUrl": "https://running-coach.justyntyrrell.workers.dev/terms"
+  "documentationUrl": "https://pacepuffin.com/help",
+  "supportUrl": "https://pacepuffin.com/support",
+  "privacyPolicyUrl": "https://pacepuffin.com/privacy",
+  "termsOfServiceUrl": "https://pacepuffin.com/terms"
 }
