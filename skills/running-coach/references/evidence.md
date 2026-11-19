@@ -7,9 +7,10 @@ A meaningful recommendation is a workout change, a taper or build decision, or a
 - **What `active` holds:** the reviewed rules that apply today. Each comes by `id` and `domain`, with:
   - `why_now`: the state values that triggered it;
   - `purpose`;
-  - its claims, with their evidence type, quality, effect and population;
+  - `strongest_evidence`, `population_match` and `evidence_count`;
   - `personal_evidence`;
   - `uncertainty`.
+- **Its claims** are in their own section, `coaching_evidence.<id>`, by the rule's id: each with its evidence type, quality, effect and population, in the order below. Read that rule's before you cite a claim id or name a study, an effect or a population. An older file carries them inline, as the rule's `evidence`.
 - **The rule's own text:** its guidance and alternatives are in `references/guidance.md`, by id, and the domain's file there. Base the advice on that text, adapt it to the athlete, and offer an alternative where it fits better.
 - **Undetermined rules** couldn't be checked, so never assume they wouldn't apply:
   - `reason: missing_input`: data was missing, and `missing` names the inputs;

@@ -1,6 +1,6 @@
 # Training-load progression, running injury and return to running
 
-Rendered from the coaching knowledge (version acf61b6f40f3); never edited by hand.
+Rendered from the coaching knowledge (version 31cb832692d4); never edited by hand.
 
 ## Rules
 

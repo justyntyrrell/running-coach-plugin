@@ -1,14 +1,14 @@
 # Coaching guidance
 
-Rendered from the coaching knowledge (version acf61b6f40f3); never edited by hand.
+Rendered from the coaching knowledge (version 31cb832692d4); never edited by hand.
 
-`coaching_guidance.active[]` in `coach_context.json` names each rule that applies today by `id` and `domain`, with `why_now`, the claims it rests on and their evidence, `personal_evidence` and `uncertainty`. A rule's guidance, purpose and alternatives, and each claim's practical implication and link, are in its domain's file below. A claim's id is listed under its own domain, which can differ from its rule's.
+`coaching_guidance.active[]` in `coach_context.json` names each rule that applies today by `id` and `domain`, with `why_now`, `personal_evidence` and `uncertainty`. The claims it rests on, with their evidence, are in `coaching_evidence.<id>`. A rule's guidance, purpose and alternatives, and each claim's practical implication and link, are in its domain's file below. A claim's id is listed under its own domain, which can differ from its rule's.
 
 ## Heat and altitude: `guidance/environment.md`
 
 Rules: heat-response.
 
-Claims: env-altitude-raises-haemoglobin-mass, env-heat-acclimation-improves-performance, env-heat-acclimatise-1-2-weeks, env-heat-optimum-falls-with-distance, env-intermittent-hypoxic-training-no-benefit, env-live-high-train-low-best, env-marathon-heat-cost-grows-with-finish-time, env-marathon-slows-with-altitude, env-marathon-slows-with-heat, env-mass-marathon-slows-above-12c.
+Claims: env-altitude-raises-haemoglobin-mass, env-altitude-small-time-trial-gain-runners, env-heat-acclimation-improves-performance, env-heat-acclimatise-1-2-weeks, env-heat-optimum-falls-with-distance, env-intermittent-hypoxic-training-no-benefit, env-live-high-train-low-best, env-marathon-heat-cost-grows-with-finish-time, env-marathon-slows-with-altitude, env-marathon-slows-with-heat, env-mass-marathon-slows-above-12c.
 
 ## Fueling, race nutrition, energy availability and iron: `guidance/fueling.md`
 
