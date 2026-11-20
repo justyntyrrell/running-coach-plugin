@@ -1,6 +1,6 @@
 # Recovery, sleep and overreaching
 
-Rendered from the coaching knowledge (version 31cb832692d4); never edited by hand.
+Rendered from the coaching knowledge (version 0bc54c126454); never edited by hand.
 
 ## Rules
 
@@ -10,7 +10,7 @@ Rendered from the coaching knowledge (version 31cb832692d4); never edited by han
 
 **Purpose:** Catch accumulating fatigue early without over-reading a single wearable metric.
 
-**Uncertainty:** No marker diagnoses overreaching, and wearable baselines drift with illness, travel, alcohol and sensor error. HRV-guided adjustment helps performance only slightly on average.
+**Uncertainty:** No marker diagnoses overreaching, and wearable baselines drift with being unwell, travel, alcohol and sensor error. HRV-guided adjustment helps performance only slightly on average.
 
 **Alternatives:**
 
@@ -24,6 +24,7 @@ Each with its evidence type, quality, source and link, then what it means in pra
 
 - **recovery-cold-water-blunts-strength** (meta_analysis, low quality; Malta 2021, https://pubmed.ncbi.nlm.nih.gov/33146851/): Avoid routine cold-water immersion straight after strength sessions; after runs it appears neutral for endurance adaptation.
 - **recovery-hrv-guided-small-edge** (meta_analysis, low quality; Manresa-Rocamora 2021, https://pubmed.ncbi.nlm.nih.gov/34639599/): Use HRV as one input for adjusting intensity day to day, not as a gate; any performance benefit over a sensible fixed plan is small.
-- **recovery-no-single-overtraining-marker** (consensus, low quality; Meeusen 2013, https://pubmed.ncbi.nlm.nih.gov/23247672/): Never call overreaching from one metric such as HRV or resting heart rate; combine performance trends, mood and fatigue, and rule out illness, low energy intake and iron deficiency.
+- **recovery-no-single-overtraining-marker** (consensus, low quality; Meeusen 2013, https://pubmed.ncbi.nlm.nih.gov/23247672/): Never call overreaching from one metric such as HRV or resting heart rate; combine performance trends, mood and fatigue.
+- **recovery-self-report-tracks-load-best** (systematic_review, moderate quality; Saw 2016, https://pubmed.ncbi.nlm.nih.gov/26423706/): How the athlete says they feel is the most responsive signal of how they are absorbing training; a good HRV or resting heart rate does not outweigh a poor self-report.
 - **recovery-sleep-individualised** (consensus, low quality; Walsh 2020, https://pubmed.ncbi.nlm.nih.gov/33144349/): Treat a run of short or poor sleep as context for the day's decision and ask how the athlete feels; avoid rigid sleep targets.
 - **recovery-techniques-soreness-not-adaptation** (meta_analysis, low quality; Dupuy 2018, https://pubmed.ncbi.nlm.nih.gov/29755363/): Recovery modalities are optional comfort tools: fine when they help the athlete feel ready, but they do not replace easy days and sleep.

@@ -1,6 +1,6 @@
 # Predicting race times from a runner's own races
 
-Rendered from the coaching knowledge (version 31cb832692d4); never edited by hand.
+Rendered from the coaching knowledge (version 0bc54c126454); never edited by hand.
 
 ## Rules
 

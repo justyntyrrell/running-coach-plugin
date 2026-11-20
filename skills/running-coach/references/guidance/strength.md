@@ -1,6 +1,6 @@
 # Strength, plyometrics, running economy and injury prevention
 
-Rendered from the coaching knowledge (version 31cb832692d4); never edited by hand.
+Rendered from the coaching knowledge (version 0bc54c126454); never edited by hand.
 
 ## Rules
 
@@ -37,7 +37,6 @@ Rendered from the coaching knowledge (version 31cb832692d4); never edited by han
 Each with its evidence type, quality, source and link, then what it means in practice.
 
 - **strength-biomechanics-explain-little-economy** (meta_analysis, moderate quality; Van Hooren 2024, https://pubmed.ncbi.nlm.nih.gov/38446400/): Do not cue form changes (contact time, stride length) for economy; small cadence or stiffness links are not a reason to overhaul a runner's gait.
-- **strength-contraception-oc-strength-adaptation-null** (meta_analysis, low quality; Nolan 2024, https://pubmed.ncbi.nlm.nih.gov/37755666/): Program strength work for a runner on the pill exactly as for a non-user: the pill is no reason to expect smaller or larger strength gains.
 - **strength-economy-highly-trained** (meta_analysis, low quality; Balsalobre-Fernández 2016, https://pubmed.ncbi.nlm.nih.gov/26694507/): Strength training is worth keeping in a trained runner's week; the effect is on economy, not VO2max.
 - **strength-heavy-over-plyometric-economy** (meta_analysis, moderate quality; Eihara 2022, https://pubmed.ncbi.nlm.nih.gov/36370207/): Favour heavy, low-repetition lower-body lifting (working toward >=90% 1RM) for 2 sessions a week over 10+ weeks; plyometrics are a complement, not a substitute.
 - **strength-injury-prevention-all-sports** (meta_analysis, moderate quality; Lauersen 2018, https://pubmed.ncbi.nlm.nih.gov/30131332/): Strength work is a plausible durability tool; this evidence comes mostly from team and field sports, so its size in runners is uncertain.

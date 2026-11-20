@@ -1,6 +1,6 @@
 # Tapering and peaking before a race
 
-Rendered from the coaching knowledge (version 31cb832692d4); never edited by hand.
+Rendered from the coaching knowledge (version 0bc54c126454); never edited by hand.
 
 ## Rules
 
@@ -10,7 +10,7 @@ Rendered from the coaching knowledge (version 31cb832692d4); never edited by han
 
 **Purpose:** Shed accumulated fatigue while keeping the fitness already built. Expect freshness, not new fitness.
 
-**Uncertainty:** The pooled evidence comes from small studies across endurance sports. The one half-marathon trial (a 7-day, 85% cut) found no gain, and the best taper length differs by source. Expect a gain of a few percent at most, varying by athlete. The rule does not wait for a pain answer: pain or illness the athlete reports overrides it.
+**Uncertainty:** The pooled evidence comes from small studies across endurance sports. The one half-marathon trial (a 7-day, 85% cut) found no gain, and the best taper length differs by source. Expect a gain of a few percent at most, varying by athlete. The rule does not wait for a check-in: a low-feel day the athlete reports overrides it.
 
 **Alternatives:**
 

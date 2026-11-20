@@ -1,6 +1,6 @@
 # Coaching guidance
 
-Rendered from the coaching knowledge (version 31cb832692d4); never edited by hand.
+Rendered from the coaching knowledge (version 0bc54c126454); never edited by hand.
 
 `coaching_guidance.active[]` in `coach_context.json` names each rule that applies today by `id` and `domain`, with `why_now`, `personal_evidence` and `uncertainty`. The claims it rests on, with their evidence, are in `coaching_evidence.<id>`. A rule's guidance, purpose and alternatives, and each claim's practical implication and link, are in its domain's file below. A claim's id is listed under its own domain, which can differ from its rule's.
 
@@ -10,11 +10,11 @@ Rules: heat-response.
 
 Claims: env-altitude-raises-haemoglobin-mass, env-altitude-small-time-trial-gain-runners, env-heat-acclimation-improves-performance, env-heat-acclimatise-1-2-weeks, env-heat-optimum-falls-with-distance, env-intermittent-hypoxic-training-no-benefit, env-live-high-train-low-best, env-marathon-heat-cost-grows-with-finish-time, env-marathon-slows-with-altitude, env-marathon-slows-with-heat, env-mass-marathon-slows-above-12c.
 
-## Fueling, race nutrition, energy availability and iron: `guidance/fueling.md`
+## Fueling and race nutrition: `guidance/fueling.md`
 
-Rules: race-fueling-rehearsal, illness-energy-intake, illness-cycle-energy-check, iron-status-check.
+Rules: race-fueling-rehearsal.
 
-Claims: fuel-caffeine-3-6-mg-kg, fuel-carbohydrate-during-exercise-helps, fuel-contraception-coc-masks-energy-deficiency, fuel-iron-daily-supplement-menstruating-women-gi-cost, fuel-iron-female-athlete-deficiency-endurance-cost, fuel-iron-ferrous-sulfate-raises-stores-active-women, fuel-iron-low-ferritin-half-of-elite-women, fuel-iron-oral-response-depends-on-baseline-ferritin, fuel-iron-supplement-vo2max-women-reproductive-age, fuel-lea-common-in-athletes, fuel-lea-indicators-slower-marathon-women, fuel-lea-markers-not-obligatory-underperformance, fuel-low-energy-availability-reds, fuel-menstrual-disturbance-dose-not-threshold, fuel-more-food-restores-menses, fuel-race-carbohydrate-scales-with-duration, fuel-train-the-gut, fuel-triad-factors-raise-bone-stress-risk.
+Claims: fuel-caffeine-3-6-mg-kg, fuel-carbohydrate-during-exercise-helps, fuel-race-carbohydrate-scales-with-duration, fuel-train-the-gut.
 
 ## Running on grades: uphill and downhill cost: `guidance/grade.md`
 
@@ -26,37 +26,25 @@ Claims: grade-downhill-muscle-damage-economy, grade-hilly-course-slower-than-fla
 
 Rules: hr-sensor-check.
 
-Claims: hr-chest-strap-closest-to-ecg, hr-contraception-coc-exercise-hr-unchanged, hr-dehydration-3bpm-per-percent-heat, hr-drift-heat-dehydration-relative-intensity, hr-fluid-intake-lowers-exercise-hr, hr-wrist-optical-valid-steady-treadmill.
-
-## Illness and return to training: `guidance/illness.md`
-
-Rules: illness-return, illness-before-race.
-
-Claims: ill-confirmed-infection-return-timeline, ill-exercise-during-head-cold-not-worse, ill-fever-no-training-until-resolved, ill-mild-infection-spares-endurance, ill-respiratory-symptoms-week-little-time-lost, ill-systemic-symptoms-prerace-dnf.
+Claims: hr-chest-strap-closest-to-ecg, hr-dehydration-3bpm-per-percent-heat, hr-drift-heat-dehydration-relative-intensity, hr-fluid-intake-lowers-exercise-hr, hr-wrist-optical-valid-steady-treadmill.
 
 ## Intensity distribution, periodization, threshold, VO2max and race-specific work: `guidance/intensity.md`
 
 Rules: build-intensity-mix, quality-density.
 
-Claims: intensity-above-mmss-raises-vo2peak, intensity-contraception-oc-performance-trivial-difference, intensity-contraception-oc-vo2max-no-difference, intensity-easy-volume-predicts-elite-performance, intensity-elite-pyramidal-to-polarized, intensity-hiit-vs-continuous-vo2max-untrained, intensity-interval-dose-small-in-trained, intensity-long-intervals-over-sprints, intensity-polarized-pyramidal-equivalent, intensity-polarized-small-vo2peak-edge, intensity-threshold-dominant-model-less-effective, intensity-threshold-intervals-elite-model.
+Claims: intensity-above-mmss-raises-vo2peak, intensity-easy-volume-predicts-elite-performance, intensity-elite-pyramidal-to-polarized, intensity-hiit-vs-continuous-vo2max-untrained, intensity-interval-dose-small-in-trained, intensity-long-intervals-over-sprints, intensity-polarized-pyramidal-equivalent, intensity-polarized-small-vo2peak-edge, intensity-threshold-dominant-model-less-effective, intensity-threshold-intervals-elite-model.
 
 ## Training-load progression, running injury and return to running: `guidance/load_progression.md`
 
-Rules: long-run-spike, weekly-volume-jump, return-after-break, bone-stress-risk-screen, no-fixed-load-rules.
+Rules: long-run-spike, weekly-volume-jump, return-after-break, no-fixed-load-rules.
 
-Claims: load-acwr-high-days-marathon-amateurs, load-acwr-inverse-in-runners, load-acwr-not-a-valid-management-target, load-bone-female-offroad-runner-risk-factors, load-bone-female-runners-higher-bsi-risk, load-bone-menstrual-disturbance-more-bsi, load-bone-prior-stress-fracture-strongest-predictor, load-bone-return-time-depends-on-site, load-bone-triad-cumulative-risk-consensus, load-contraception-hc-training-response-unchanged, load-detraining-front-loaded-after-stop, load-halfmarathon-weekly-increase-20-60pct, load-postpartum-activity-spares-milk-and-infant-growth, load-postpartum-elite-early-return-injury-signal, load-postpartum-pelvic-floor-training-cuts-incontinence, load-postpartum-pregnancy-vigorous-exercise-third-trimester, load-postpartum-return-run-programme-delphi, load-postpartum-return-run-readiness-delphi, load-previous-injury-strongest-risk-factor, load-reduced-training-keeps-endurance, load-return-after-bone-stress-graded-symptom-led, load-single-session-spike-vs-30day-longest, load-ten-percent-rule-not-protective, load-weekly-change-evidence-very-limited, load-weekly-jump-over-30pct-distance-injuries.
+Claims: load-acwr-high-days-marathon-amateurs, load-acwr-inverse-in-runners, load-acwr-not-a-valid-management-target, load-detraining-front-loaded-after-stop, load-halfmarathon-weekly-increase-20-60pct, load-previous-injury-strongest-risk-factor, load-reduced-training-keeps-endurance, load-return-after-bone-stress-graded, load-single-session-spike-vs-30day-longest, load-ten-percent-rule-not-protective, load-weekly-change-evidence-very-limited, load-weekly-jump-over-30pct-distance-injuries.
 
 ## Long runs, volume and durability: `guidance/long_runs.md`
 
 Rules: long-run-development.
 
 Claims: longrun-economy-durability, longrun-marathon-training-dose.
-
-## Menstrual cycle phase, performance and cycle-based training in eumenorrheic women: `guidance/menstrual_cycle.md`
-
-Rules: cycle-phase-not-a-plan-axis, cycle-recovery-context.
-
-Claims: cycle-adapted-running-no-added-gain, cycle-early-follicular-trivial-dip, cycle-follicular-sprint-block-keeps-vo2max, cycle-hormone-verified-effects-inconsistent, cycle-symptoms-cost-training-days, cycle-wearable-hrv-dips-late-cycle.
 
 ## Recovery after a half marathon or marathon: `guidance/post_race.md`
 
@@ -74,7 +62,7 @@ Claims: pred-big-data-in-sample-not-width, pred-no-single-marathon-equation, pre
 
 Rules: recovery-deviations.
 
-Claims: recovery-cold-water-blunts-strength, recovery-hrv-guided-small-edge, recovery-no-single-overtraining-marker, recovery-sleep-individualised, recovery-techniques-soreness-not-adaptation.
+Claims: recovery-cold-water-blunts-strength, recovery-hrv-guided-small-edge, recovery-no-single-overtraining-marker, recovery-self-report-tracks-load-best, recovery-sleep-individualised, recovery-techniques-soreness-not-adaptation.
 
 ## Sleep loss, sleep extension, naps and injury: `guidance/sleep.md`
 
@@ -86,7 +74,7 @@ Claims: sleep-extension-and-naps-most-effective, sleep-injury-not-independent-ri
 
 Rules: strength-in-build, form-metrics-descriptive.
 
-Claims: strength-biomechanics-explain-little-economy, strength-contraception-oc-strength-adaptation-null, strength-economy-highly-trained, strength-heavy-over-plyometric-economy, strength-injury-prevention-all-sports, strength-jump-training-runners, strength-physiological-determinants, strength-runner-prevention-programs-null.
+Claims: strength-biomechanics-explain-little-economy, strength-economy-highly-trained, strength-heavy-over-plyometric-economy, strength-injury-prevention-all-sports, strength-jump-training-runners, strength-physiological-determinants, strength-runner-prevention-programs-null.
 
 ## Strides, short sprints and neuromuscular training for distance runners: `guidance/strides.md`
 
