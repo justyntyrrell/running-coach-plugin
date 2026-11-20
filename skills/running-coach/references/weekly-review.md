@@ -1,6 +1,6 @@
 # The weekly review
 
-This is the agenda's `weekly_review` item, and any Sunday check-in. It's a check-in (rule 9) that looks back on the complete week and agrees the next one.
+This is the agenda's `weekly_review` item, and any Sunday check-in. It's a check-in (`references/check-ins.md`) that looks back on the complete week and agrees the next one.
 
 ## Looking back
 

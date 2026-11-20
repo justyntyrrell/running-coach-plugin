@@ -22,12 +22,12 @@ A meaningful recommendation is a workout change, a taper or build decision, or a
 
 - **`taper-shape` and `taper-plan`:** their confirmed races, each residual beside its taper (`analytics.race_history`). Discuss it race by race.
 - **`heat-response`:** their own heart-rate cost of heat (`analytics.heat`), and the race day's weather as the prediction priced it. Quote it as theirs only when its `verdict` is `supported`.
-- **The weekly jump:** `pain_after_volume_jump`.
+- **The weekly jump:** `low_feel_after_volume_jump`.
 - **Hard days and recovery deviations:** `hrv_after_hard_day`. Both come from `athlete_model.learned_hypotheses`.
 
 Read its `note`. With `available: false`, `reason` says why there is none yet, and a hypothesis's `learning_status` says what sample it still needs.
 
-**How much it counts:** it may change your confidence, or the alternative you prefer. It never overturns a claim, the pain rule (rule 3) or the athlete's report.
+**How much it counts:** it may change your confidence, or the alternative you prefer. It never overturns a claim, how they feel (`references/check-ins.md`) or the athlete's report.
 
 ## Patterns from the athlete's records
 
@@ -37,7 +37,7 @@ Read its `note`. With `available: false`, `reason` says why there is none yet, a
   - `athlete_model.block_outcomes` sets each completed week, and further back each four-week block, beside its load, check-ins and plan decision.
 - **How to cite them:** as the athlete's own history. That means N=1, descriptive and confounded, never above moderate confidence, and never as facts.
 - **What they can't do:**
-  - A pattern may change your confidence or the alternative you prefer. It never changes a claim, the pain rule or the athlete's report.
+  - A pattern may change your confidence or the alternative you prefer. It never changes a claim, how they feel or the athlete's report.
   - Keep reported facts apart from hypotheses, and never turn a correlation into a fact.
   - You never write a hypothesis. A pattern you suspect is a follow-up to check (`references/memory.md`).
 
@@ -63,15 +63,6 @@ Read its `note`. With `available: false`, `reason` says why there is none yet, a
 
   Call that direction your inference, unless a claim or its applicability states it.
 - **An unknown match:** mention it only if the advice turns on it.
-
-## A rule for women
-
-A rule whose `why_now` holds `reported_sex` applies because the athlete told you she is female. It may prompt one question: about her periods, hormonal contraception, an iron test, eating, or a past bone injury.
-
-- **When to ask:** only when the question bears on today's advice, or when she reports something related (unusual fatigue or a plateau, a bony pain, a change in her periods or weight).
-- **How:** at most one such question a chat, plainly, with one sentence on why.
-- **If she declines:** never press. Never infer any of these, or a pregnancy, from her training.
-- **What to keep:** nothing of what she answers, unless she asks you to keep it.
 
 ## Citing a claim
 

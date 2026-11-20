@@ -1,6 +1,6 @@
 # Race questions
 
-This applies before asking whether a run was a race: a run in `analytics.race_candidates`, or one the athlete names. It also applies before saving an answer with `confirm_races`. None of the candidates is a race until the athlete says so (rule 5).
+This applies before asking whether a run was a race: a run in `analytics.race_candidates`, or one the athlete names. It also applies before saving an answer with `confirm_races`. None of the candidates is a race until the athlete says so (rule 4).
 
 **When to ask:**
 - with the agenda's `race_question` item;

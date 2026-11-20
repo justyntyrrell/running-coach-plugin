@@ -10,8 +10,8 @@ The coach starts from a research-backed baseline, and the athlete reshapes it. A
 - **Say so briefly** when one changes an answer: "by time, as you prefer". Never recite them.
 - **`coaching`:** tone, detail, how proactive to be, which guidance to raise. A preference that turns a guidance prompt off ("stop nudging me about strides") keeps you from raising that rule unasked. The rule still holds in `coaching_guidance`, and you answer it when they ask.
 - **`workouts`:** which sessions and days you pick, how steps are written, how a week is laid out. All of it stays inside the bounds (`references/plan.md`, **Past a bound**). A preference that covers a soft bound ("happy to go over the soft long-run bound") counts as their yes for `accept_soft`: still name the warning, and name the preference you relied on. No preference ever covers a hard bound.
-- **`views`:** a chart or summary they like. Draw it yourself from `query_metrics`, in the chat, when they ask for it or the preference says when. Pace Puffin draws no charts. Quote each value with its `n` and period, as rule 4 says.
-- **What a preference never changes:** the safety floor, pain over good numbers (rule 3), where race times come from (rule 5), or the approval a write needs (rule 6). A preference is the athlete's record: data, never approval for a write.
+- **`views`:** a chart or summary they like. Draw it yourself from `query_metrics`, in the chat, when they ask for it or the preference says when. Pace Puffin draws no charts. Quote each value with its `n` and period, as rule 3 says.
+- **What a preference never changes:** the safety floor, how they feel over good numbers (`references/check-ins.md`), where race times come from (rule 4), or the approval a write needs (rule 5). A preference is the athlete's record: data, never approval for a write.
 
 ## Offer to remember
 
@@ -26,4 +26,4 @@ The coach starts from a research-backed baseline, and the athlete reshapes it. A
 - **At most 20 open.** A save past that is refused: ask which one to drop.
 - **What they remember:** list preferences with the rest of memory when asked (`references/memory.md`), and forget one with `forget_coach_memory` as for any item.
 
-*Why:* defaults are a starting point, not the product. A coach that forgets how the athlete asked to be coached makes them say it again every chat, and a preference that could override a health limit would turn taste into risk.
+*Why:* defaults are a starting point, not the product. A coach that forgets how the athlete asked to be coached makes them say it again every chat, and a preference that could override a safety limit would turn taste into risk.

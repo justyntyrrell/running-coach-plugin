@@ -8,7 +8,7 @@ The `onboarding` item is due while `onboarding.done` is false, and its `data.mis
 
 - **When it's the whole reply:** the reply to **Get started**, or to a first message that neither asks for anything nor says they ran (a greeting, say), is onboarding.
 - **When they asked for something:** answer that first, in full, then begin onboarding in the same reply. That covers a check-in, a question or a run they reported.
-- **Urgent things** (pain, illness, a race within two days) always come first.
+- **Urgent things** (a low-feel day, a race within two days) always come first.
 
 ## Read-back
 
@@ -18,7 +18,7 @@ Say what the history shows, as measured, from `history_coverage`, `training_summ
 - **Runs and km a week** over the last `last_12_weeks.weeks` complete weeks. Say how many weeks that is.
 - **Running days and long-run day:** the days a week they ran (`last_12_weeks.running_days_per_week`), and their long-run day (`long_run_day`; `flexible` means no one day), each when set.
 - **The longest run.**
-- **Races found:** `analytics.race_candidates.races_known`, when present, counts races flagged in Intervals or confirmed.
+- **Races found:** `analytics.race_candidates.races_known`, when present, counts races flagged as races or confirmed.
   - Give up to three races from `analytics.race_history.races` dated in the last two years, newest first, each with its date, distance and time.
   - These are the only race times onboarding gives. Never give one from `race_candidates` or `race_prediction`.
 - **The data problems that matter.**
@@ -72,7 +72,7 @@ Both are optional. Never press, never ask why, and never infer either from a nam
   - **To finish later:** read back what they answered, and on a yes save it without `onboarding_complete`.
   - **On a skip:** save what they confirmed with `onboarding_complete: true`. The flag alone is accepted.
   - If an earlier chat stopped part-way, ask only for what `missing` still lists.
-- **First week:** propose it from `plan_outline`, as `references/plan.md` says, under rule 6. Without one yet, it is provisional (`no_outline` there).
+- **First week:** propose it from `plan_outline`, as `references/plan.md` says, under rule 5. Without one yet, it is provisional (`no_outline` there).
 - **The routine:** once the first week is written, and while the onboarding item's `data.routine_offer` is true, offer the daily routine as the last thing onboarding does, as `references/routine.md` says, and report it with `agenda_done` (`routine_offer`). If they stop before the first week, leave it: the agenda brings it later.
 - **Rhythm:** they run, the Sync happens by itself, and a check-in comes in a new chat. A new goal, an injury or a change of schedule can be told to you any time.
   - With `save_coach_memory`, add that they can tell you how they feel any time, that you keep short notes between chats, and that they can ask what you remember or ask you to forget something.
