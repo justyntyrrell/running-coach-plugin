@@ -1,6 +1,6 @@
 # Intensity distribution, periodization, threshold, VO2max and race-specific work
 
-Rendered from the coaching knowledge (version 31cb832692d4); never edited by hand.
+Rendered from the coaching knowledge (version 0bc54c126454); never edited by hand.
 
 ## Rules
 
@@ -38,8 +38,6 @@ Rendered from the coaching knowledge (version 31cb832692d4); never edited by han
 Each with its evidence type, quality, source and link, then what it means in practice.
 
 - **intensity-above-mmss-raises-vo2peak** (meta_analysis, moderate quality; Rosenblat 2024, https://pubmed.ncbi.nlm.nih.gov/37737543/): Include some work above threshold (VO2max-type intervals) in each build block; do not expect it alone to move race times in a few weeks.
-- **intensity-contraception-oc-performance-trivial-difference** (meta_analysis, low quality; Elliott-Sale 2020, https://pubmed.ncbi.nlm.nih.gov/32666247/): Any average effect of the pill on performance is likely trivial: do not plan around it, and do not schedule key sessions or races around her pill-free days. If a pill user feels her performance varies, judge it from her own training data and symptoms rather than from a general rule.
-- **intensity-contraception-oc-vo2max-no-difference** (meta_analysis, low quality; Schumpf 2023, https://pubmed.ncbi.nlm.nih.gov/37484400/): Do not adjust VO2max-based paces or fitness expectations for pill use or pill phase. A change of a couple of ml/kg/min after starting the pill cannot be ruled out, so retest fitness rather than assume it is unchanged.
 - **intensity-easy-volume-predicts-elite-performance** (observational, low quality; Casado 2021, https://pubmed.ncbi.nlm.nih.gov/31045681/): Easy volume is not filler: protect it, and add tempo and short-interval work to it rather than replacing easy running with more intensity.
 - **intensity-elite-pyramidal-to-polarized** (elite_practice, very_low quality; Casado 2022, https://pubmed.ncbi.nlm.nih.gov/35418513/): For a half-marathon or marathon build, a pyramidal base (much easy running, regular threshold work, some faster work) with hard-easy days is consistent with elite practice.
 - **intensity-hiit-vs-continuous-vo2max-untrained** (meta_analysis, moderate quality; Milanović 2015, https://pubmed.ncbi.nlm.nih.gov/26243014/): Evidence that intervals are efficient for VO2max comes largely from untrained people; for a trained runner it supports including intervals, not replacing easy volume.

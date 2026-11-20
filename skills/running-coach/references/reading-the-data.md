@@ -17,7 +17,7 @@ They are never a diagnosis, a composite readiness score or a prescription. When 
 - **Critical speed:** `critical_speed` is what the last 90 days' efforts *demonstrated*. It is a floor unless one of them was a race or a test. Never prescribe threshold work faster than it, and never make it a race time.
 - **Baseline comparison:** `baseline_comparison` is the athlete's own, never a population norm, and hills are already in it.
   - Judge a `residual_median` against the same metric in the other recent runs in `run_detail.json`, not against a fixed cutoff.
-  - Heart rate above expectation fits fatigue, illness, dehydration, sun or detraining, and below it fits fitness. The data can't tell these apart, so weigh it with recovery signals and the check-in.
+  - Heart rate above expectation fits fatigue, being run down, dehydration, sun or detraining, and below it fits fitness. The data can't tell these apart, so weigh it with recovery signals and the check-in.
   - Form at matched effort (cadence, ground contact time, vertical ratio, step length): report a deviation that persists across runs, or appears late in one. Never report one run's value alone, and never treat form as an injury signal or a target.
 - **Weather:** `analytics.weather.latest` is modelled air at the run's start area, not what the athlete felt. Sun, shade and shelter aren't in it.
   - `provisional` values may still change.
@@ -60,7 +60,7 @@ When `analytics.training_log` is present, read `training_log.json` by section.
   - Across a day in `anchors.jumps`, compare paces, not labels.
 - **The rules' inputs:** `coaching_guidance` reads its intensity inputs from the newest completed weeks' rows, which `analytics.training_log.completed_weeks` carries as the file has them.
 - **The flags in `recent_days`:** the `quality` flag (steady and progression included), and the `hard` and `easy` flags, are these labels. A run not labelled yet is flagged from its plan, an RPE or its name (`quality_basis` says which), so prefer the log's label.
-  - `long_run` is measured against the log's long threshold, so the two agree on long runs. The context times a run by Intervals' moving time, though, and the log by its samples.
+  - `long_run` is measured against the log's long threshold, so the two agree on long runs. The context times a run by its moving time, though, and the log by its samples.
   - `athlete_state.days_since_hard_session` and `days_since_long_run` count from these labels.
 - **Adding runs up:** read the log for individual runs and weeks, never to add them up (`references/metric-queries.md`).
 
@@ -90,6 +90,6 @@ When `analytics.training_log` is present, read `training_log.json` by section.
   - background and best times;
   - coaching preferences;
   - sex and year of birth.
-- **Against the history:** prefer the Intervals history once it covers the same period, and name any disagreement between the two.
+- **Against the history:** prefer the synced history once it covers the same period, and name any disagreement between the two.
 - **Recency:** `get_athlete_profile`'s `profile` and `goal` are current. `race_context` and these facts are as of the last Sync, which during a first Sync can be a day away.
-- **The calendar:** Intervals is authoritative for it. The Sync never writes to it.
+- **The calendar:** the athlete's calendar is authoritative. The Sync never writes to it.
