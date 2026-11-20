@@ -1,12 +1,13 @@
 {
   "name": "running-coach",
   "displayName": "Pace Puffin",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "An AI running coach that reads your own runs and training plan and coaches you from them: daily check-ins, race-time ranges and a planned week, with nothing changed without your yes.",
   "author": {
     "name": "Justyn Tyrrell"
   },
   "homepage": "https://pacepuffin.com/help",
+  "license": "LicenseRef-Proprietary",
   "icon": "./assets/icon.png",
   "documentationUrl": "https://pacepuffin.com/help",
   "supportUrl": "https://pacepuffin.com/support",
