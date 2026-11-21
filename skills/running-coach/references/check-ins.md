@@ -48,7 +48,7 @@ With `save_coach_memory`, save the values they gave, on the tool's scales, in th
 ## The reply
 
 - **A check-in reply's** headings:
-  - **READINESS** (Green, Yellow or Red, with confidence; provisional when decisive data is missing) and **TODAY** are always there. TODAY is the exact recommendation, effort ceiling and change to what's planned, or to `plan_outline`'s week when nothing is planned. If today's workout is done, review it and guide the rest of the day.
+  - **READINESS** (Green, Yellow or Red, with confidence; provisional when decisive data is missing) and **TODAY** are always there. TODAY is the exact recommendation, effort ceiling and change to what's planned, or to `plan_outline`'s week when nothing is planned. If today's workout is done, review it (`references/coaching-voice.md`) and guide the rest of the day.
   - These come only when they change something:
     - **WHY:** two to four decisive signals, with what each is and the claim ids;
     - **RECENT TRAINING:** `week_so_far` against plan, not one run alone;

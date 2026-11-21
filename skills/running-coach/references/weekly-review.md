@@ -4,6 +4,7 @@ This is the agenda's `weekly_review` item, and any Sunday check-in. It's a check
 
 ## Looking back
 
+- **First, how it went:** ask how the week felt before showing any figure. Then open with `weekly_review.week_highlights`, each with its figure, and say plainly what fell short, without blame (`references/coaching-voice.md`).
 - **The weeks:** `weekly_review` is the last complete Monday-to-Sunday week. It ends on the previous Sunday, so a partial current Sunday is never mixed into it. Beside it, give the current week to date, labelled as such.
 - **What to review:**
   - actual, required and optional km;
@@ -30,4 +31,6 @@ With `analytics.race_prediction`, set its ranges beside last week's, as `referen
 
 - **The decision:** decide whether the coming week stays the same, goes down or goes up, and explain the evidence.
 - **The outline's week:** set `plan_outline.weeks[1]` and `weekly_review.next_week_direction` beside the reviewed week and the athlete's decision (`references/plan.md`).
+- **A range of runs:** where the plan allows, agree the run count as a range ("4–5 runs"), so a week at the lower end counts as done.
+- **One if-then plan:** offer one for the likeliest thing to get in the way, in their words: "if Thursday goes, the tempo moves to Saturday". Save it with the week plan if they want it.
 - **Saving it:** with `save_coach_memory`, once the athlete agrees whether to keep, decrease or increase, save it as `week_plan` for the coming Monday. That save closes this item. Include the direction, the reason, and a km target only if they agreed one.

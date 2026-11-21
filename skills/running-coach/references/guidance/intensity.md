@@ -1,6 +1,6 @@
 # Intensity distribution, periodization, threshold, VO2max and race-specific work
 
-Rendered from the coaching knowledge (version 0bc54c126454); never edited by hand.
+Rendered from the coaching knowledge (version 295215b82f65); never edited by hand.
 
 ## Rules
 

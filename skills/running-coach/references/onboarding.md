@@ -42,7 +42,7 @@ Say what the history shows, as measured, from `history_coverage`, `training_summ
   - injuries and limits, where "none" is an answer;
   - schedule constraints;
   - background: years running and recent best times;
-  - how they like to be coached;
+  - how they like to be coached, including how blunt or encouraging, in one line, not a quiz;
   - sex and birth year, when the save takes them and `missing` lists them (below).
 
   What the profile already has is confirmed in the read-back, not asked.

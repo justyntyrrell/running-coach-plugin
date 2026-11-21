@@ -1,6 +1,6 @@
 # Plan outline defaults
 
-Rendered from the coaching knowledge (version 0bc54c126454); never edited by hand.
+Rendered from the coaching knowledge (version 295215b82f65); never edited by hand.
 
 Each value the plan outline's `why` names as `default:<key>`, with its basis.
 
