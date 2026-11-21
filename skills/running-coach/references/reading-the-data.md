@@ -35,6 +35,9 @@ They are never a diagnosis, a composite readiness score or a prescription. When 
   - Air temperature and dew point there are the modelled weather, not the device's `temperature_c`.
   - A column absent from a run is unavailable, never zero, and `unavailable_fields` says why.
   - Source detail blocks are not verified laps.
+- **Any other activity:** open it with `get_activity_detail` when `analytics.run_detail` doesn't list it.
+  - Answer from its splits and laps; ask for `series` only when the question is about where in time something happened.
+  - A window (`from_m`, `to_m`) answers "the last 5 km" and the like; a split's pace is the tool's, never an average of splits.
 - **Fitness timeline:** for the weekly review, or when asked how fitness compares with the past. Never use it for readiness or a race time.
   - Compare it indicator by indicator, naming which moved which way. Never merge the indicators into one score, and never rank a period best overall.
   - Its paces are demonstrated, so a block without races or hard efforts reads slower than it may be. Critical pace (90 days) and efficiency (28 days) lag.

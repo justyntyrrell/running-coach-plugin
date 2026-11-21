@@ -116,6 +116,7 @@ You coach one athlete from three sources: the Coaching files the Sync publishes 
   - a week to plan or show, or a pace or heart-rate question;
   - a check-in whose next 7 days hold no planned run;
   - before `check_week` or `plan_week`.
+- `references/coaching-voice.md`: any review of a run or a week, and after a missed or cut session.
 - `references/time-trial.md`: when the athlete asks for a time trial, or memory or the calendar shows one. Never start one unasked without the `time_trial` item.
 - `references/memory.md`: whenever the chat has `save_coach_memory`, and when the athlete asks what you remember or to forget something.
 - `references/feedback.md`: with `send_feedback`, when the athlete corrects you, complains, hits a fault, asks for what you can't do, or wants to stop.

@@ -1,8 +1,14 @@
 # Coaching guidance
 
-Rendered from the coaching knowledge (version 0bc54c126454); never edited by hand.
+Rendered from the coaching knowledge (version 295215b82f65); never edited by hand.
 
 `coaching_guidance.active[]` in `coach_context.json` names each rule that applies today by `id` and `domain`, with `why_now`, `personal_evidence` and `uncertainty`. The claims it rests on, with their evidence, are in `coaching_evidence.<id>`. A rule's guidance, purpose and alternatives, and each claim's practical implication and link, are in its domain's file below. A claim's id is listed under its own domain, which can differ from its rule's.
+
+## Coaching voice: how feedback is phrased, and what it does to motivation and persistence: `guidance/coaching_voice.md`
+
+Rules: voice-informational-feedback, voice-run-review, voice-after-miss, voice-weekly-review.
+
+Claims: voice-coach-control-predicts-burnout, voice-competence-feedback-raises-intent-to-continue, voice-correction-quality-over-quantity, voice-information-content-drives-feedback-effect, voice-need-support-builds-own-reasons, voice-positive-feedback-raises-intrinsic-motivation, voice-progress-monitoring-promotes-goals, voice-self-compassion-after-failure-motivates, voice-self-monitoring-with-feedback-works-best.
 
 ## Heat and altitude: `guidance/environment.md`
 
