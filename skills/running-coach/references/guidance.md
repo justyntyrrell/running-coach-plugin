@@ -1,8 +1,18 @@
 # Coaching guidance
 
-Rendered from the coaching knowledge (version 0bc54c126454); never edited by hand.
+Rendered from the coaching knowledge (version a596fb349f63); never edited by hand.
 
 `coaching_guidance.active[]` in `coach_context.json` names each rule that applies today by `id` and `domain`, with `why_now`, `personal_evidence` and `uncertainty`. The claims it rests on, with their evidence, are in `coaching_evidence.<id>`. A rule's guidance, purpose and alternatives, and each claim's practical implication and link, are in its domain's file below. A claim's id is listed under its own domain, which can differ from its rule's.
+
+## What a dedicated training block is worth, by training status: `guidance/block_gains.md`
+
+Claims: block-bacon-length-of-responders, block-bangsbo-trained-55km, block-festa-recreational-8wk, block-filipas-well-trained-16wk, block-haugen-world-class-progression, block-lock-short-block-smaller, block-munoz-recreational-10k, block-munoz-trained-peak-6wk, block-nuuttila-recreational-12wk, block-rosenblat-status-gradient, block-vesterinen-recreational-8wk, block-wiesinger-elite-hiit.
+
+## Coaching voice: how feedback is phrased, and what it does to motivation and persistence: `guidance/coaching_voice.md`
+
+Rules: voice-informational-feedback, voice-run-review, voice-after-miss, voice-weekly-review.
+
+Claims: voice-coach-control-predicts-burnout, voice-competence-feedback-raises-intent-to-continue, voice-correction-quality-over-quantity, voice-information-content-drives-feedback-effect, voice-need-support-builds-own-reasons, voice-positive-feedback-raises-intrinsic-motivation, voice-progress-monitoring-promotes-goals, voice-self-compassion-after-failure-motivates, voice-self-monitoring-with-feedback-works-best.
 
 ## Heat and altitude: `guidance/environment.md`
 
@@ -14,7 +24,7 @@ Claims: env-altitude-raises-haemoglobin-mass, env-altitude-small-time-trial-gain
 
 Rules: race-fueling-rehearsal.
 
-Claims: fuel-caffeine-3-6-mg-kg, fuel-carbohydrate-during-exercise-helps, fuel-race-carbohydrate-scales-with-duration, fuel-train-the-gut.
+Claims: fuel-caffeine-3-6-mg-kg, fuel-carb-load-glycogen-rises-with-intake, fuel-carb-load-helps-events-over-90-min, fuel-carb-load-marathon-day-before-intake, fuel-carb-load-marathoners-eat-too-little, fuel-carbohydrate-120g-protects-critical-power, fuel-carbohydrate-during-exercise-helps, fuel-prerace-meal-helps-prolonged-exercise, fuel-race-carbohydrate-scales-with-duration, fuel-train-the-gut.
 
 ## Running on grades: uphill and downhill cost: `guidance/grade.md`
 
@@ -32,13 +42,13 @@ Claims: hr-chest-strap-closest-to-ecg, hr-dehydration-3bpm-per-percent-heat, hr-
 
 Rules: build-intensity-mix, quality-density.
 
-Claims: intensity-above-mmss-raises-vo2peak, intensity-easy-volume-predicts-elite-performance, intensity-elite-pyramidal-to-polarized, intensity-hiit-vs-continuous-vo2max-untrained, intensity-interval-dose-small-in-trained, intensity-long-intervals-over-sprints, intensity-polarized-pyramidal-equivalent, intensity-polarized-small-vo2peak-edge, intensity-threshold-dominant-model-less-effective, intensity-threshold-intervals-elite-model.
+Claims: intensity-30-30-active-recovery-raised-vo2max-7wk, intensity-30-30-at-105-vvo2max-doubles-time-above-90, intensity-30-30-hr-overstates-time-near-vo2max, intensity-30-30-more-time-at-vo2max-than-continuous, intensity-4x4-intervals-beat-equal-work-moderate, intensity-60-30-beats-30-30-time-above-90-vo2max, intensity-above-mmss-raises-vo2peak, intensity-blood-volume-carries-the-cardiac-gain, intensity-easy-volume-predicts-elite-performance, intensity-elite-pyramidal-to-polarized, intensity-hiit-central-sit-peripheral, intensity-hiit-vs-continuous-vo2max-untrained, intensity-interval-dose-small-in-trained, intensity-long-intervals-over-sprints, intensity-long-reps-most-time-near-vo2max, intensity-moderate-domain-no-vo2max-gain-6wk, intensity-oxygen-delivery-limits-vo2max, intensity-polarized-pyramidal-equivalent, intensity-polarized-small-vo2peak-edge, intensity-session-duration-dose-response-vo2max, intensity-threshold-dominant-model-less-effective, intensity-threshold-intervals-elite-model, intensity-untrained-muscle-oxidative-gain-outruns-vo2max, intensity-volume-builds-mitochondria-intensity-their-function.
 
 ## Training-load progression, running injury and return to running: `guidance/load_progression.md`
 
 Rules: long-run-spike, weekly-volume-jump, return-after-break, no-fixed-load-rules.
 
-Claims: load-acwr-high-days-marathon-amateurs, load-acwr-inverse-in-runners, load-acwr-not-a-valid-management-target, load-detraining-front-loaded-after-stop, load-halfmarathon-weekly-increase-20-60pct, load-previous-injury-strongest-risk-factor, load-reduced-training-keeps-endurance, load-return-after-bone-stress-graded, load-single-session-spike-vs-30day-longest, load-ten-percent-rule-not-protective, load-weekly-change-evidence-very-limited, load-weekly-jump-over-30pct-distance-injuries.
+Claims: load-acwr-high-days-marathon-amateurs, load-acwr-inverse-in-runners, load-acwr-not-a-valid-management-target, load-break-7d-slows-marathon, load-completed-weeks-predict-goal, load-detraining-front-loaded-after-stop, load-halfmarathon-weekly-increase-20-60pct, load-injury-main-dropout-novices, load-previous-injury-strongest-risk-factor, load-reduced-training-keeps-endurance, load-return-after-bone-stress-graded, load-single-session-spike-vs-30day-longest, load-ten-percent-rule-not-protective, load-weekly-change-evidence-very-limited, load-weekly-jump-over-30pct-distance-injuries.
 
 ## Long runs, volume and durability: `guidance/long_runs.md`
 
@@ -56,7 +66,7 @@ Claims: postrace-easy-running-from-48h-markers-null, postrace-half-strength-back
 
 Rules: race-prediction-ranges.
 
-Claims: pred-big-data-in-sample-not-width, pred-no-single-marathon-equation, pred-personal-exponent, pred-riegel-fast-for-marathon.
+Claims: pred-big-data-in-sample-not-width, pred-no-single-marathon-equation, pred-pacing-10k-fast-start-individual, pred-pacing-early-pace-above-94-cs, pred-pacing-hitting-the-wall-share-and-cost, pred-pacing-marathons-mostly-positive-split, pred-pacing-no-imposed-strategy-beats-self-pacing, pred-pacing-realistic-target-time, pred-personal-exponent, pred-riegel-fast-for-marathon.
 
 ## Recovery, sleep and overreaching: `guidance/recovery.md`
 
@@ -74,7 +84,7 @@ Claims: sleep-extension-and-naps-most-effective, sleep-injury-not-independent-ri
 
 Rules: strength-in-build, form-metrics-descriptive.
 
-Claims: strength-biomechanics-explain-little-economy, strength-economy-highly-trained, strength-heavy-over-plyometric-economy, strength-injury-prevention-all-sports, strength-jump-training-runners, strength-physiological-determinants, strength-runner-prevention-programs-null.
+Claims: strength-biomechanics-explain-little-economy, strength-economy-highly-trained, strength-heavy-fatigued-5min-power-cyclists, strength-heavy-over-plyometric-economy, strength-heavy-plyo-fatigued-tte-runners, strength-injury-prevention-all-sports, strength-jump-training-runners, strength-physiological-determinants, strength-runner-prevention-programs-null.
 
 ## Strides, short sprints and neuromuscular training for distance runners: `guidance/strides.md`
 
@@ -84,7 +94,7 @@ Claims: strides-elite-coaches-speed-work, strides-explosive-training-economy, st
 
 Rules: taper-shape, taper-plan, taper-no-late-overload.
 
-Claims: taper-bosquet-2wk-volume-cut, taper-elite-distance-runner-practice, taper-expected-gain-about-3pct, taper-gain-8km-cross-country-race, taper-gain-spread-olympic-swimmers, taper-half-marathon-deep-short-null, taper-keep-intense-running-short-taper, taper-keep-run-frequency, taper-overload-only-without-overreaching, taper-strict-consecutive-2-3wk-recreational, taper-wang-endurance-components.
+Claims: taper-bosquet-2wk-volume-cut, taper-elite-distance-runner-practice, taper-expected-gain-about-3pct, taper-gain-8km-cross-country-race, taper-gain-spread-olympic-swimmers, taper-half-marathon-deep-short-null, taper-keep-intense-running-short-taper, taper-keep-run-frequency, taper-overload-only-without-overreaching, taper-strict-consecutive-2-3wk-recreational, taper-wang-endurance-components, taper-warmup-easy-jog-no-clear-gain-30min-run, taper-warmup-endurance-avoid-fatigue-heat, taper-warmup-high-intensity-5k-time-trial, taper-warmup-meta-improves-most-outcomes, taper-warmup-priming-hard-needs-9min-recovery, taper-warmup-race-pace-200m-800m, taper-warmup-stretching-no-running-economy-effect.
 
 ## Plan outline defaults: `plan-defaults.md`
 
