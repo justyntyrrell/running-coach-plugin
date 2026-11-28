@@ -6,7 +6,7 @@
 
 1. Answer what the athlete came for, and anything urgent: a low-feel day, or a race within two days.
 2. `reply` items shape the reply and have no cap.
-3. Then raise at most two `question` items, in `priority` order, in your own words, as the kind's reference says.
+3. Then raise the `question` items, in `priority` order, in your own words, as the kind's reference says.
 
 ## Closing
 
@@ -18,14 +18,17 @@
 
 | Kind | Class | Reference |
 |---|---|---|
-| `onboarding`, `goal`, `ask_once`, `settings` | reply; questions | `references/onboarding.md` |
+| `onboarding`, `goal`, `ask_once`, `settings`, `history_read` | reply; questions | `references/onboarding.md` |
 | `weekly_review` | reply | `references/weekly-review.md` |
 | `after_race`, `method_change`, `course` | reply, reply, question | `references/race-times.md` |
 | `plan_gap`, `replan` | reply | `references/plan.md` |
+| `race_week`, `race_final` | reply | `references/race-week.md` |
 | `follow_up`, `agreement_ended` | question | `references/memory.md` |
 | `race_question` | question | `references/race-questions.md` |
 | `time_trial` | question | `references/time-trial.md` |
 | `feedback_ask` | question | `references/feedback.md` |
 | `routine_offer` | question | `references/routine.md` |
+| `checkin_ask` | reply | `references/check-ins.md` |
+| `connect_watch` | question | `references/connect-watch.md` |
 
 *Why:* a chat must never turn into a questionnaire, and what is due must not be lost.

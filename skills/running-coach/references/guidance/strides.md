@@ -1,6 +1,6 @@
 # Strides, short sprints and neuromuscular training for distance runners
 
-Rendered from the coaching knowledge (version 0bc54c126454); never edited by hand.
+Rendered from the coaching knowledge (version a596fb349f63); never edited by hand.
 
 ## Claims
 

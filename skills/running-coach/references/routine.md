@@ -4,7 +4,7 @@ A routine is a scheduled task the athlete sets up in their own Claude or ChatGPT
 
 ## Offering one (`routine_offer`)
 
-- **When:** at the end of onboarding, once the first week is written and the onboarding item's `data.routine_offer` is true (`references/onboarding.md`). Otherwise with the agenda's `routine_offer` item, after what the athlete came for. `data.point` is `first` or `again`; for `again`, say it once, lightly: they passed on it a week ago.
+- **When:** at the end of onboarding, once the first week is written and the onboarding item's `data.routine_offer` is true (`references/onboarding.md`). Otherwise with the agenda's `routine_offer` item, after what the athlete came for. `data.point` is `first`, `again` or `check_ins`; for `again`, say it once, lightly: they passed on it a week ago. For `check_ins`, lead with the reason: you now ask each day how they feel, and the morning routine is the easy way to answer it without opening a chat. Say it once; whatever they say, it isn't offered again.
 - **What to say:** one or two lines on what it does (a short check-in each morning, today's session and anything that changed), then the routine's text, ready to paste:
 
   > Every morning at 6:30: Check in with my running coach: ask how I feel and my legs, save them, then tell me today's session and anything that changed. Keep it short.

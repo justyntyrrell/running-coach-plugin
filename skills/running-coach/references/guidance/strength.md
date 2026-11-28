@@ -1,6 +1,6 @@
 # Strength, plyometrics, running economy and injury prevention
 
-Rendered from the coaching knowledge (version 0bc54c126454); never edited by hand.
+Rendered from the coaching knowledge (version a596fb349f63); never edited by hand.
 
 ## Rules
 
@@ -38,7 +38,9 @@ Each with its evidence type, quality, source and link, then what it means in pra
 
 - **strength-biomechanics-explain-little-economy** (meta_analysis, moderate quality; Van Hooren 2024, https://pubmed.ncbi.nlm.nih.gov/38446400/): Do not cue form changes (contact time, stride length) for economy; small cadence or stiffness links are not a reason to overhaul a runner's gait.
 - **strength-economy-highly-trained** (meta_analysis, low quality; Balsalobre-Fernández 2016, https://pubmed.ncbi.nlm.nih.gov/26694507/): Strength training is worth keeping in a trained runner's week; the effect is on economy, not VO2max.
+- **strength-heavy-fatigued-5min-power-cyclists** (rct, low quality; Rønnestad 2011, https://pubmed.ncbi.nlm.nih.gov/19903319/): Supports heavy leg strength work as a way to protect the finish of a long event, alongside the runner trial on the same question. It is cyclists, mostly men, in one small trial, so use it as supporting evidence for runners, not as a runner effect size.
 - **strength-heavy-over-plyometric-economy** (meta_analysis, moderate quality; Eihara 2022, https://pubmed.ncbi.nlm.nih.gov/36370207/): Favour heavy, low-repetition lower-body lifting (working toward >=90% 1RM) for 2 sessions a week over 10+ weeks; plyometrics are a complement, not a substitute.
+- **strength-heavy-plyo-fatigued-tte-runners** (rct, moderate quality; Zanini 2025, https://pubmed.ncbi.nlm.nih.gov/40016936/): Treat two short sessions a week of heavy lifting plus jumps as a way to hold economy and a late-race surge after long, steady running, not only fresh economy. The evidence is one 10-week trial in men of about 39-minute 10K ability, measured as time to exhaustion on a treadmill rather than a race, so present the size of the gain as uncertain.
 - **strength-injury-prevention-all-sports** (meta_analysis, moderate quality; Lauersen 2018, https://pubmed.ncbi.nlm.nih.gov/30131332/): Strength work is a plausible durability tool; this evidence comes mostly from team and field sports, so its size in runners is uncertain.
 - **strength-jump-training-runners** (meta_analysis, moderate quality; Ramirez-Campillo 2021, https://pubmed.ncbi.nlm.nih.gov/33956587/): Short plyometric work (low volume, progressed) is a reasonable addition for economy and speed; introduce it gradually because it adds impact load.
 - **strength-physiological-determinants** (systematic_review, moderate quality; Blagrove 2018, https://pubmed.ncbi.nlm.nih.gov/29249083/): Two to three varied strength sessions a week are a reasonable default; concerns about added mass or lost aerobic fitness are not supported.

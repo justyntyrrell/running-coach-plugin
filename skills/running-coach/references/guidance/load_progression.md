@@ -1,6 +1,6 @@
 # Training-load progression, running injury and return to running
 
-Rendered from the coaching knowledge (version 0bc54c126454); never edited by hand.
+Rendered from the coaching knowledge (version a596fb349f63); never edited by hand.
 
 ## Rules
 
@@ -10,7 +10,7 @@ Rendered from the coaching knowledge (version 0bc54c126454); never edited by han
 
 **Purpose:** Single runs well beyond the recent longest are the best-supported load warning for overuse injury.
 
-**Uncertainty:** One large observational cohort. 10% was a category edge chosen in advance, not a proven safe limit, and no trial shows that capping spikes prevents injury.
+**Uncertainty:** One large observational cohort. 10% was a category edge chosen in advance, not a proven safe limit, and no trial shows that capping spikes prevents injury. It judges each run alone: a string of steps each within 10% is never flagged, and the study did not test one (steps of 1-10% carried no clear extra risk: HRR 1.19, 0.90-1.57).
 
 **Alternatives:**
 
@@ -68,8 +68,11 @@ Each with its evidence type, quality, source and link, then what it means in pra
 - **load-acwr-high-days-marathon-amateurs** (observational, low quality; Toresdahl 2023, https://pubmed.ncbi.nlm.nih.gov/36113976/): A last-7-days volume well above the 4-week average (about 1.5x) can prompt a review, not a hard cutoff.
 - **load-acwr-inverse-in-runners** (observational, low quality; Nakaoka 2021, https://pubmed.ncbi.nlm.nih.gov/34052983/): Do not penalise a recent load increase for a high ratio alone; a sharp load drop may signal a niggle, so ask how they feel.
 - **load-acwr-not-a-valid-management-target** (narrative_review, moderate quality; Impellizzeri 2020, https://pubmed.ncbi.nlm.nih.gov/32502973/): Do not use ACWR sweet spots or danger zones as injury-prevention rules; at most show the ratio as a descriptive trend.
+- **load-break-7d-slows-marathon** (observational, low quality; Feely 2022, https://pubmed.ncbi.nlm.nih.gov/36704260/): Treat avoiding a week or more off running as a priority in a build: on a close call, favour the option that keeps the athlete running. After a break, adjust expectations for the race rather than catching up the missed volume.
+- **load-completed-weeks-predict-goal** (observational, low quality; Raysmith 2016, https://pubmed.ncbi.nlm.nih.gov/26839047/): Count weeks trained as a measure of how a build is going, and weigh protecting them above any single session.
 - **load-detraining-front-loaded-after-stop** (observational, low quality; Coyle 1984, https://pubmed.ncbi.nlm.nih.gov/6511559/): After a full stop, past fitness is lost fastest in the first 3 weeks and the loss levels off by about 8: weeks without running should cost an Athlete's past volume its weight quickly at first, then less.
 - **load-halfmarathon-weekly-increase-20-60pct** (observational, low quality; Damsted 2019, https://pubmed.ncbi.nlm.nih.gov/30526231/): Be most careful early in a half-marathon block and avoid stacking large weekly increases there; one big week is a weak predictor on its own.
+- **load-injury-main-dropout-novices** (observational, low quality; Fokkema 2019, https://pubmed.ncbi.nlm.nih.gov/29934211/): Treat injury, not motivation, as the main threat to an athlete continuing: ask about niggles early and frame backing off as part of the plan.
 - **load-previous-injury-strongest-risk-factor** (systematic_review, moderate quality; Hulme 2017, https://pubmed.ncbi.nlm.nih.gov/27785775/): Weigh the athlete's injury history above any volume rule, and progress more conservatively after recent or recurring injury.
 - **load-reduced-training-keeps-endurance** (observational, low quality; Hickson 1982, https://pubmed.ncbi.nlm.nih.gov/6214534/): A block run at two thirds or more of an Athlete's usual km, with intensity kept (a taper, a recovery block), is a reduction that keeps what they built, not a fresh start: their past volume stays evidence. Much less than that starts to cost long endurance.
 - **load-return-after-bone-stress-graded** (scoping_review, very_low quality; George 2024, https://pubmed.ncbi.nlm.nih.gov/39141251/): After an injury layoff, reintroduce running in stages, restore volume before intensity, and let how running feels during, after and the day after set the pace; present it as expert consensus.
